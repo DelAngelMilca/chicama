@@ -1,9 +1,74 @@
- .container {
- 	background-image:src="img/grupal.jpg"
- }
- .sobre {
+.container{
+	background-image: url(../img/grupal.jpg);
+	background-position: center;
+	position: static;
+	height:800px ;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
 
+}
+
+.nav-todos ul, li{
+	display: inline-block;
+}
+
+ .logo img {
+ 	width: 100%;
+ 	display:block;
  }
- .lista {
- 	background-color: 
+ 
+ .nav-todos{
+ 	display: inline-block;
  }
+ 
+ nav ul {
+	list-style-type: none;
+	padding-top: 25px;
+	margin: 0 -15 0 0 ;
+	
+	font-size: 20px;
+	line-height: 20px;
+	white-space: nowrap;
+	font-family:serif;	
+}
+nav li {
+
+	
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 10px 15px;
+	text-shadow:2px 2px 4px #000;
+}
+ 
+ .text-center{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.boton{
+	
+}
+ div .fpie{
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+.fpie img{
+	width: 100%;
+}
+.lista {
+	margin-bottom: 70px;
+}
+.sumate{
+	background-color: #DA9E10;
+	height: 58px;
+	width: 137px;
+	text-align: center;
+	font-size: 24px; 
+}
+
