@@ -1,74 +1,57 @@
-.container{
-	background-image: url(../img/grupal.jpg);
-	background-position: center;
-	position: static;
-	height:800px ;
-	width: 100%;
-	background-repeat: no-repeat;
-	background-size: 100%;
 
-}
-
-.nav-todos ul, li{
-	display: inline-block;
-}
-
- .logo img {
- 	width: 100%;
- 	display:block;
- }
- 
- .nav-todos{
- 	display: inline-block;
- }
- 
- nav ul {
-	list-style-type: none;
-	padding-top: 25px;
-	margin: 0 -15 0 0 ;
-	
-	font-size: 20px;
-	line-height: 20px;
-	white-space: nowrap;
-	font-family:serif;	
-}
-nav li {
-
-	
+body{
 	margin: 0;
 	padding: 0;
 }
-
-nav a {
-	text-decoration: none;
-	padding: 10px 15px;
-	text-shadow:2px 2px 4px #000;
-}
- 
- .text-center{
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 20px;
-}
-.boton{
-	
-}
- div .fpie{
-	display: inline-block;
-	height: 300px;
-	width: 300px;
-}
-.fpie img{
+.section-header{
+	height: 500px;
 	width: 100%;
+	background-image: url(../img/grupal.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
 }
-.lista {
-	margin-bottom: 70px;
+li{
+	display: inline-block;
 }
-.sumate{
-	background-color: #DA9E10;
-	height: 58px;
-	width: 137px;
-	text-align: center;
-	font-size: 24px; 
+ul {
+	float: right;
+
+}
+.columnas .row {
+	margin:5% 0;
+}
+.logo-lab img {
+    width: 50%;
+    margin-left: 20%;
+}
+.col-2.boton-sumate {
+    background-color: #FFCc00;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.columnas-img img {
+    width: 100%;
+}
+h1.columnas-txt {
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 2px solid #000000;
+}
+.section-footer{
+	height: 50px;
+	width: 100%;
+	background-color:#333333;
+	line-height: 50px;
+}
+.section-footer p {
+	color: #fff;
+	font-size: 12px;
+
+}
+.section-footer .numero{
+	color:#0099ff;
 }
 
